@@ -1,11 +1,16 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%)
+}
+
 .heading{
-    color: red;
+    color: hsl(268, 83%, 46%);
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 48;
 }
 .bg-grey{
-    background: #c6c6c6;
+    background: #3a3030;
 }
 .p-5{
     padding:20px;
@@ -16,6 +21,6 @@
     background-color: red;
 }
 #main-heading{
-    ccolor: hsl;
+    color: hsl(219, 49%, 23%) !important;
 }
     
