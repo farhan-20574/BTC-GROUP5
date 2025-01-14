@@ -1,3 +1,11 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#hd1{
+    background-color:hsl(120, 23%, 46%);
+    text-align: center;
+}
+#navbar{
+    text-align:center;
+}
