@@ -1,6 +1,22 @@
+body{
+    
+}
 .header-main{
-    background-color: hsl(271, 82%, 58%);
-    text-align: center;
+    
+    background-color: hsl(271, 82%, 58%);text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     color: aliceblue;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+}
+#navbar-top{
+    color: #000;
+}
+.footer{
+    background-color: hsl(271, 82%, 58%);text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: aliceblue;
+    height: auto;
+    padding: 20px;
 }
