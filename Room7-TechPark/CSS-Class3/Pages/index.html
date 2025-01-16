@@ -16,7 +16,7 @@
       border: 1px solid red;
       width: 100px;
       height: 100px;
-      display: block;
+      display: inline-block;
     }
     .container-2{
      background: hsl(66, 63%, 70%);
@@ -33,7 +33,20 @@
     #box-3{
       visibility: none;
     }
-
+    input:hover{
+      background-color: rgb(231, 214, 214);
+    }
+    input:focus{
+      background-color: hsl(65, 67%, 71%);
+      outline: auto;
+    }
+    ul
+    ul> li:first-child {
+      background-color: blueviolet;
+    }
+    ul> li:nth-child(2n + 1) {
+      background-color: rgb(41, 38, 43);
+    }
 
   </style>
 </head>
@@ -43,7 +56,24 @@
     <div class="box" id="box-2">Box2</div>
     <div class="box" id="box-3">Box3</div>
     <div class="box" id="box-4">Box4</div>
+    <input type="text" placeholder="write your name">
+    <input type="password" placeholder="write your password">
+    <input type="email" placeholder="write your email">
+  </div>
+  <div>
+    <ul>
+      <li>Pakistan</li>
+      <li>Pakistan</li>
+      <li>Pakistan</li>
+      <li>Pakistan</li>
+      <li>Pakistan</li>
+    </ul>
+    <p>pakistan</p>
+    <p>pakistan</p>
+    <p>pakistan</p>
+    <p>pakistan</p>
 
   </div>
+  
 </body>
 </html>
